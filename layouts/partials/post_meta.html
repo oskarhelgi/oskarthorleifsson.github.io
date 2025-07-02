@@ -4,6 +4,13 @@
 {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
 {{- end }}
 
+{{ with .Params.status }}
+  <span class="post-meta-item status">
+    <i class="fa fa-info-circle"></i>
+    {{ . }}
+  </span>
+{{ end }}
+
 {{- if (.Param "ShowReadingTime") -}}
 {{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
 {{- end }}
