@@ -7,7 +7,7 @@ aliases:
    # - /old_url.html
 tags: ["Recruitment","Labour Shortage","Employer Search"]
 author: ["Oskar Thorleifsson"]
-description: "Paper description for search engines (less than 155 characters)" 
+description: "Paper description for search (less than 155 characters)" 
 summary: " "
 #cover:
  #   image: "paper_figure.png"
