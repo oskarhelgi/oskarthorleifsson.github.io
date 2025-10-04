@@ -31,7 +31,7 @@ menu:
 params:
     description: "This website hosts Óskar Thorleifsson's research papers, curriculum vitae, and contact information. Oskar Thorleifsson is a PhD student at the Department of Economics and Business Economics, Aarhus University. His research interests lie in the field of labour economics."
     author: Óskar Thorleifsson
-    # googleAnalyticsID: "G-XXXXX"
+    googleAnalyticsID: "G-7RTF159C1X"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
